@@ -4,8 +4,7 @@ layout: default
 
 ## Introduction
 
-<img src="assets/images/Pura_profile-pic.jpg" alt="My hansome mug" hspace="20" width="30%" align="right"/> Hello! I'm Pura Tigger <small>(not related to the esteemed Tigger living in the Hundred Acre Wood).</small>  
-I'm a stay-at-home/travel plush that has 20 years of experience working as an emotional support tigger, both in Finland as well as abroad.
+<img src="assets/images/Pura_profile-pic.jpg" alt="My hansome mug" hspace="20" width="30%" align="right"/> Hello! I'm Pura Tigger <small>(not related to the esteemed Tigger living in the Hundred Acre Wood).</small> I'm a stay-at-home/travel plush that has 20 years of experience working as an emotional support tigger, both in Finland as well as abroad.
 
 Although I like my current job, I aspire to double-major as a "rubber duck" to assist human programmers with my debugging expertise. That's why I sometimes hitch a ride with my charge to the University of Helsinki, where I listen in on various lectures.  
 I'm already interning as an amateur rubber duck by tutoring my charge in programming.
@@ -19,6 +18,10 @@ My favorite game is CTR Nitro-Fueled, which has my favorite quote of all time:
 * [GitHub](https://github.com/krmakela) (contribution: mascot + debugging support)
 
 * **LinkedIn** (under construction)
+
+## CV
+
+Check out my CV in PDF format [here](https://github.com/krmakela/krmakela.github.io/tree/master/assets/documents/Pura_CV.pdf)!
 
 ## Contact
 
