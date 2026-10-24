@@ -61,7 +61,25 @@ I also struggled a bit with making changes to my configuration file due to my no
 As for what comes to using `sudo` and especially `pip` commands… I felt as if I had about a 30 to 40 percent success rate with those. I did at least receive comfort from the [_Universal Install Script_ comic](https://www.explainxkcd.com/wiki/index.php/1654:_Universal_Install_Script), which illustrates how most of humanity seems to hold the same unfortunate curse.
 
 ### Module 4: Using ssh, scp and Version Control
-TXTHERE
+In the fourth module, we first learned how to identify and manage **processes**. We then learned how to connect to a **remote server** through practicing using the `ssh` and `scp` commands on CSC’s Roihu remote server. Finally, we learned about **version control** using **Git** and **GitHub repositories**.
+
+#### Here’s a basic idiot-proof command chain I’ve made for myself for when I’m working in a repo branch:
+
+| COMMAND			| FUNCTION											| ADDITIONAL NOTES				|
+|-------------------------------|-----------------------------------------------------------------------------------------------|-----------------------------------------------|
+| `git pull origin main`	| download + integrate any changes that have been made into the repo (HEAD) since the last pull	| *Remember to use in group projects!		|
+| `git add -A`			| add _all_ pending changes to the file contents into the Git staging area			| *If just 1 file --> `git add <FILE>`		|
+| `git status`			| check current state of the Git repo & staging area						| *Check if additions are OK!			|
+| `git commit -m "MSG"`		| save a snapshot of _previously staged_ changes to the repo with a specified message		| *Be descriptive with your messages!		|
+| `git push origin main`	| publish local changes to the remote repo							| *Can be undone safely with `git revert <SHA>`	|
 
 ### Final project: Jekyll and GitHub Pages
-TXTHERE
+
+For our final assignment, we were tasked with building a webpage using **GitHub Pages**. This required us to use our previously learned Git and GitHub repo skills, combined with learning basic **Markdown** formatting and using the static site generator **Jekyll** to view our webpage’s progress locally before committing our edits to GitHub. We were also tasked with creating a CV on **Overleaf** by using one of the available **LaTeX templates** there.
+
+
+Although I started building this webpage a bit late and therefore had to hurry some things, I’ve learned a surprising amount in such a short time. I had no idea that creating and finding a host for your own webpage could be this simple! GitHub Pages is definitely something I will be using together with GitHub repositories in the future. The same goes for creating a CV from pre-existing and highly customizable templates on Overleaf. I luckily have some previous background in HTML and CSS coding, so I found both LaTeX templates as well as Markdown quite intuitive to work with.
+
+Jekyll was also a delightful tool to work with. Not only did it allow me to check how my coding attempts look before I push my blunders into my repo for everyone to see, but the ready Jekyll themes for web page customization were also incredible timesavers in terms of formatting (based on my hazy memories of creating even simple webpages from scratch). I was also impressed by how seamlessly the `bundle exec Jekyll serve` command worked for frequent page layout checks. Not a single error message in sight, I felt almost blessed after all of my previous compatibility issues when working on my WSL.
+
+All in all, I might have gone a bit overboard with creating the webpage and CV for my muse (Pura is still sitting next to me, watching over my work), but at least this final project will definitely stay in my memory. It definitely reminded me why I liked webpage coding (even if it was just in Notepad) in lower secondary school, and how I can actually have fun when making projects too!
