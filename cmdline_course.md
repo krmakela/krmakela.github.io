@@ -29,7 +29,24 @@ I had never navigated a command-line environment before, so practically everythi
 
 
 ### Module 2: Text Processing in UNIX
-TXTHERE
+
+In the second module, we learned how to use text processing tools in UNIX, which was supported by learning about character encodings, formatted text files and building command pipelines. Out of command-line commands, `grep` and `sed` took the spotlight.
+
+I learned the basics of using **regular expressions** during this module, which will serve me well in future programming courses. I’m also fairly confident in using `grep` or `egrep` now, but `sed` and its many, _many_ uses still tend to confuse me, so I’m going to need to look into `sed` more after this course.
+
+#### Here’s a command pipeline I learned:
+`cat filename.txt | tr -s '\n\r\t  ' '\n' | tr -dc "[:alnum:]\n" | sort | uniq -c | sort -nr >filename.freq`
+
+This is a rudimentary command pipeline for creating a frequency list based on a text file.  
+The command
+1. reads a specified file
+2. replaces newlines, carriage returns, tabs and spaces with a single newline (while squeezing repeated characters) --> effectively creates a word list (one word per line)
+3. deletes all instances of "words" that DON'T consist of letters `[a-zA-Z]` or numbers `[0-9]` from the word list
+4. sorts the words in alphabetical and numerical order
+5. prints the words with duplicates taken out, adding the number of times the word was repeated as a prefix
+6. sorts the words according to reverse numerical value (greatest prefix to smallest), then saves the lines to a FREQ file
+
+The pipeline could use a little more work, as for one it doesn't take words with dashes (-) or apostrophes (') into consideration, but it's a great demonstration of how powerful chaining regex can be!
 
 ### Module 3: Scripting, Configuration Files and Installing Programs
 TXTHERE
