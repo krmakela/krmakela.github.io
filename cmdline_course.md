@@ -46,10 +46,19 @@ The command
 5. prints the words with duplicates taken out, adding the number of times the word was repeated as a prefix
 6. sorts the words according to reverse numerical value (greatest prefix to smallest), then saves the lines to a FREQ file
 
-The pipeline could use a little more work, as for one it doesn't take words with dashes (-) or apostrophes (') into consideration, but it's a great demonstration of how powerful chaining regex can be!
+While the pipeline could use more work, as for example it doesn't take words with dashes (-) or apostrophes (') into consideration, it's a great demonstration of how powerful chaining commands containing regex can be!
 
 ### Module 3: Scripting, Configuration Files and Installing Programs
-TXTHERE
+
+In the third module, we started off by learning to tidy up our command pipelines into simple **scripts** that utilize Bash variables. We also learned to adjust our **configuration files** and run commands as the **root user** (via `sudo` and `su` commands). Finally, we practiced installing software using `apt-get` or `brew` and python packages using `pip`, both system-wide as well as in **Python virtual environments**.
+
+This module’s beginning was somewhat familiar territory to me, since I recently started learning Python. While the variables and requirements for creating runnable Bash scripts were a little different compared to what I’m used to, I was happy to see that `if` statements and `while` loops were basically the same.
+
+<img src="assets/images/bash_aliases.png" alt="A snapshot of my successful Bash aliases" style="float: right; margin: 0 0 15px 15px;">
+
+I also struggled a bit with making changes to my configuration file due to my novice Bash reading skills, as my customizations kept messing up my Bash prompt. I did, however, at least manage to create some useful aliases for shortcutting commands and making fail-safes for accidental deletion or overwriting! (see picture on the right)
+
+As for what comes to using `sudo` and especially `pip` commands… I felt as if I had about a 30 to 40 percent success rate with those. I did at least receive comfort from the [_Universal Install Script_ comic](https://www.explainxkcd.com/wiki/index.php/1654:_Universal_Install_Script), which illustrates how most of humanity seems to hold the same unfortunate curse.
 
 ### Module 4: Using ssh, scp and Version Control
 TXTHERE
