@@ -17,8 +17,6 @@ My favorite game is CTR Nitro-Fueled, which has my favorite quote of all time:
 
 * [GitHub](https://github.com/krmakela) (contribution: mascot + debugging support)
 
-* **LinkedIn** (under construction)
-
 ## CV
 
 Check out my CV in PDF format [here](https://github.com/krmakela/krmakela.github.io/tree/master/assets/documents/Pura_CV.pdf)!
